@@ -1,0 +1,17 @@
+#img-bg{
+    background-image: url(https://i.imgur.com/6ZZJRkz.jpg);
+
+    min-height: 695px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1{
+    background-color: #6c5ce7;
+}
+.btn2{
+    background-color: #d63031;
+}
+.textColor1{
+    color: white;
+}
