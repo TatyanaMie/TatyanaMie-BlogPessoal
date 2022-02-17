@@ -1,0 +1,11 @@
+.fs-16{
+    font-size: 16pt;
+}
+/*toda <a> o cursor vai ser pointer-> qndo passar o mouse em cima vai aparecer um sublinhado*/
+a{
+    cursor: pointer;
+}
+
+.navbar{
+    background-color: #a29bfe;
+}
