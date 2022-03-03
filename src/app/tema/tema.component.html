@@ -53,8 +53,8 @@
                     <th >{{tema.id}}</th>
                     <td>{{tema.descricao}}</td>
                     <td class="d-flex justify-content-end">
-                      <button class="btn btn-roxo2 mr-3 text-white">Editar</button>
-                      <button class="btn btn-vermelho text-white">Apagar</button>
+                      <button class="btn btn-roxo2 mr-3 text-white" [routerLink]="['/tema-edit',tema.id]">Editar</button>
+                      <button class="btn btn-vermelho text-white" [routerLink]="['/tema-delete',tema.id]">Apagar</button>
                     </td>
                     
                   </tr>
