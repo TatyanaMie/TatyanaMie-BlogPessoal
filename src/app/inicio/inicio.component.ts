@@ -32,7 +32,7 @@ export class InicioComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
+    window.scroll(0,0)
     if(environment.token == ""){
       this.router.navigate(['/entrar'])
     }
