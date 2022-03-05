@@ -37,7 +37,7 @@ export class InicioComponent implements OnInit {
       this.router.navigate(['/entrar'])
     }
     this.getAllTemas()
-    this.geatAllPostagens()
+    this.getAllPostagens()
   }
 
   getAllTemas(){
@@ -52,7 +52,7 @@ export class InicioComponent implements OnInit {
     })
   }
 
-  geatAllPostagens(){
+  getAllPostagens(){
     this.postagemService.getAllPostagens().subscribe((resp: Postagem[])=>{
       this.listaPostagens = resp
     })
@@ -75,7 +75,7 @@ export class InicioComponent implements OnInit {
       this.postagem = resp
       alert('Postagem realizada com sucesso!')
       this.postagem = new Postagem()
-      this.geatAllPostagens()
+      this.getAllPostagens()
     })
 
   }
