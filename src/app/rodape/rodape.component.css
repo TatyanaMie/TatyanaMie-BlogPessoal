@@ -9,21 +9,25 @@ ul.social-network li{
 }
 .fa{
     font-size: 35pt;
-    color: white;
+    color: #001d3d;
     padding: 10px;
 }
 .fa-instagram:hover{
-color: bisque;
+color: #9180d6;
 }
 .fa-linkedin-square:hover{
-    color: bisque;
+    color: #9180d6;
 }
 .fa-github-square:hover{
-    color: bisque;
+    color: #9180d6;
 }
 .page-footer{
-background-color: #a29bfe;
+background-color: #afb1ff;
 }
 .footer-copyright{
     background-color: #636e72;
+}
+
+.text-a{
+    color: #001d3d;
 }

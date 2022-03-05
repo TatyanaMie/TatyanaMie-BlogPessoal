@@ -1,17 +1,17 @@
 .color-r{
-    background-color: #fde4cf;
+    background-color: #afb1ff;
 }
 .btn-roxo{
-    background-color: #a29bfe;
+    background-color: #6c5ce7;
 }
 .btn-roxo2{
-    background-color: #907ad6;
+    background-color: #6c5ce7;
 }
 .btn-rosa{
     background-color: #fec3a6;
 }
 .btn-vermelho{
-    background-color: #f45b69;
+    background-color: #f43744;
 }
 
 .text-a{
@@ -20,7 +20,12 @@
 .text-a2{
     color: #006d77
 }
-
+.text-ro{
+    color: #6c5ce7;
+}
+.text-ver{
+    color: #f43744;
+}
 .fs-54{
     font-size: 54pt;
 }

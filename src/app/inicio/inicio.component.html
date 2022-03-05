@@ -6,13 +6,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 text-a">
                     <h1 class="fs-54">Seja bem vinde!</h1>
-                    <h5 class="fs-18">expresse aqui os seus pensamentos e opniões!</h5>
+                    <h5 class="fs-18">sinta-se à vontade para expressar aqui os seus pensamentos e opiniões!</h5>
                 </div>
             </div>
             <div class="row d-flex justify-content-center mt-3 mb-5">
                 <div class="col-md-6 ">
                     <button class="btn btn-roxo text-white mr-2" data-toggle="modal" data-target="#novaPostagem" >Nova Postagem</button>
-                    <a href="#postagens" class="btn btn-outline-secondary">Ver Postagens</a>
+                    <a href="#postagens" class="btn btn-outline-dark">Ver Postagens</a>
                 </div>
             </div>
         </div>
@@ -44,8 +44,8 @@
           <div class="card-columns">
             <div class="card text-center" *ngFor="let item of listaPostagens">
               <div class="card-body">
-                <h5 class="card-title -0">{{item.titulo}}</h5>
-                <small class="text-muted">Tema: {{item.tema.descricao}}</small>
+                <h5 class="card-title m-0">{{item.titulo}}</h5>
+                <small class="text-muted ">Tema: {{item.tema.descricao}}</small>
                 <p class="card-text mt-3">{{item.texto}}</p>
                 <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data | date: 'HH:mm'}}</small></p>
 
@@ -66,8 +66,8 @@
                 <p class="card-text mt-3">{{item.texto}}</p>
                 <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data | date: 'HH:mm'}}</small></p>
 
-                <a [routerLink]="['/postagem-edit', item.id]" class="text-r mr-3" href="">Editar</a>
-                <a [routerLink]="['/postagem-delete',item.id]" class="text-v" href="">Apagar</a>
+                <a [routerLink]="['/postagem-edit', item.id]" class="text-ro mr-3" href="">Editar</a>
+                <a [routerLink]="['/postagem-delete',item.id]" class="text-ver" href="">Apagar</a>
 
                
               </div>
