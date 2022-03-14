@@ -36,7 +36,15 @@ export class AuthService {
   logado(){
     let ok:boolean = false
     if(environment.token != ""){
-      ok=true
+      ok = true
+    }
+    return ok
+  }
+
+  adm(){
+    let ok:boolean = false
+    if(environment.tipo == ""){
+      ok = true
     }
     return ok
   }

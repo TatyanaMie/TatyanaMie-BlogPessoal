@@ -26,6 +26,11 @@ export class TemaComponent implements OnInit {
       this.router.navigate(['/entrar'])
     }
 
+    if(environment.tipo != 'adm'){
+      this.alertas.showAlertInfo('Você precisa ser administrador para cadastrar um novo tema')
+      this.router.navigate(['/inicio'])
+    }
+
     this.findAllTemas()
   }
 
